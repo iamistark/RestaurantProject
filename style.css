@@ -1,0 +1,50 @@
+body {
+    background-image: url(/assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+nav ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 40px;
+}
+nav ul li {
+    display:flex;
+    list-style-type: none;
+    font-weight: 600;
+
+}
+nav ul button {
+    background-color: orangered ;
+    font-weight: 700;
+    border:none;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+main {
+ align-items: center;
+ justify-content: center;
+ margin-top: 50px;
+ text-align: center;
+
+}
+main h1 {
+    color: yellow;
+    font-weight: 2000;
+}
+main button {
+    background-color:orangered;
+    font-weight: 600;
+    border: none;
+    border-width: 10px;
+}
+main p {
+    position:absolute ;
+    bottom: 0;
+    right: 0;
+}
